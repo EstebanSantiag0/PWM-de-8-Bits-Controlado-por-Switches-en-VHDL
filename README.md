@@ -12,6 +12,7 @@ Proyecto en **VHDL** para la tarjeta **Digilent Nexys 2 (FPGA Spartan-3E)** que 
 - [Estructura del repositorio](#estructura-del-repositorio)
 - [Cómo compilar y programar](#cómo-compilar-y-programar)
 - [Notas y consideraciones](#notas-y-consideraciones)
+- [Autoría](#autoría)
 
 ## Descripción general
 
@@ -110,3 +111,7 @@ Verificado: el proyecto compila desde un clon limpio con ISE 14.7 y cumple todas
 - A ≈ 49 Hz el ojo puede notar un ligero parpadeo con brillos bajos. Para eliminarlo basta con reducir el límite del divisor `rf`: por ejemplo, con 500 el PWM sube a ≈ 196 Hz.
 - Si se prefiere que más valor en los switches signifique **más** brillo, basta con invertir la salida (sacar `not led` al pin): el ciclo de trabajo pasa a ser ≈ `switches / 255`.
 - La salida usa un pin del conector Pmod, así que se necesita un LED externo con una resistencia en serie (≈ 220–330 Ω) hacia GND.
+
+## Autoría
+
+El diseño, los esquemáticos y el código de esta práctica son obra de **Esteban Santiago**. La documentación (este README) se redactó con ayuda de Claude (IA).
