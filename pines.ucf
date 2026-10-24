@@ -1,0 +1,15 @@
+#reloj
+NET "clk" LOC = "B8";
+
+#Switches
+NET "switches<0>" LOC = "R17";
+NET "switches<1>" LOC = "N17";
+NET "switches<2>" LOC = "L13";
+NET "switches<3>" LOC = "L14";
+NET "switches<4>" LOC = "K17";
+NET "switches<5>" LOC = "K18";
+NET "switches<6>" LOC = "H18";
+NET "switches<7>" LOC = "G18";
+
+#Leds
+NET "led" LOC = "L15" | IOSTANDARD = LVTTL;

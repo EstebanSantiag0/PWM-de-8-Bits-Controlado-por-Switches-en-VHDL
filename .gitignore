@@ -1,0 +1,91 @@
+# Carpetas de estructura personal
+!assets/
+!bin/
+
+# IPs / IP Cores
+ipcore_dir/*
+!ipcore_dir/*.xco
+!ipcore_dir/*.cgp
+!ipcore_dir/*.coe
+!ipcore_dir/*.v
+!ipcore_dir/*.veo
+
+# Archivos de proyecto ISE esenciales
+!*.xise
+!*.gise
+!*.sch
+!*.sym
+!*.ucf
+!*.coe
+!*.mif
+
+# Carpetas de caché pesada de ISE e ISim
+_ngo/
+iseconfig/
+xlnx_auto_0_xdb/
+xst/
+isim/
+tmp/
+_xmsgs/
+*_xdb/
+
+# Archivos de reportes, logs y traducciones intermedias
+*.bld
+*.cmd_log
+*.map
+*.mrp
+*.ngd
+*.ngm
+*.pcf
+*.prj
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.xpi
+*.xrpt
+*.ptwx
+*.pad
+*.par
+*.lso
+*.jhd
+*.ngr
+*.ut
+*.xwbt
+*.html
+*.xml
+*.log
+*.csv
+
+# Archivos de compilación / build (netlist, place & route, bitgen)
+*.ncd
+*.ngc
+*.bgn
+*.drc
+*_pad.txt
+
+# Archivos de simulación (ISim / Fuse)
+*.xmsgs
+fuseRelaunch.cmd
+isim.cmd
+xilinxsim.ini
+sch2HdlBatchFile
+
+# Archivos Verilog/VHDL generados
+*.vf
+*_drc.vf
+
+# Ejecutables
+*.exe
+*.wdb
+
+# Temporales globales de Xilinx
+*.ncf
+*.xmdf.tlc
+# Scripts/logs generados por XST y el editor de esquemáticos
+*.xst
+*.schlog
+
+# Netlists de los IP cores: necesarias para compilar desde un clon limpio
+!ipcore_dir/*.ngc
